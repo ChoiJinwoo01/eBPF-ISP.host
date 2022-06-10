@@ -1,0 +1,288 @@
+Ignoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+Using CPU...
+Generating output dataset
+Trying to initialize DLRM
+Hello, world!
+libFlashRec opened
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+Initialized DLRM Net
+Trying to run DLRM for the first time
+Ran DLRM for the first time
+Created network
+11680
+23385
+35154
+46862
+58548
+70245
+81930
+93566
+Running networks
+All done here, cleaning up
+Cache hitrate: 36.512109375
+Bye, world...
+Total SLS load time: *** 31320.7149506  ms
+Total UNVME lib time: *** 27276.4241695  ms
+Total computation time: *** 177.743196487  ms
+Total computation time: *** 0.444357991219  ms/iter
+Total execution time: *** 31498.458147  ms
+Total execution time: *** 78.7461453676  ms/iter
+
+---- Test end ----
+Filtered hit rate_min: 11.40625
+Filtered hit rate_max: 43.4375
+---- Batch latency ----
+P99: 105.77082633972168
+P90: 89.46084976196289
+P50: 77.26812362670898
+
+Ignoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+Using CPU...
+Generating output dataset
+Trying to initialize DLRM
+Hello, world!
+libFlashRec opened
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+Initialized DLRM Net
+Trying to run DLRM for the first time
+Ran DLRM for the first time
+Created network
+21211
+42478
+63627
+84767
+106019
+127174
+148177
+169366
+Running networks
+All done here, cleaning up
+Cache hitrate: 33.050390625
+Bye, world...
+Total SLS load time: *** 62558.1305027  ms
+Total UNVME lib time: *** 55576.1189461  ms
+Total computation time: *** 182.237625122  ms
+Total computation time: *** 0.455594062805  ms/iter
+Total execution time: *** 62740.3681278  ms
+Total execution time: *** 156.85092032  ms/iter
+
+---- Test end ----
+Filtered hit rate_min: 17.9296875
+Filtered hit rate_max: 40.546875
+---- Batch latency ----
+P99: 196.25306129455566
+P90: 177.68287658691406
+P50: 154.25515174865723
+
+Ignoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+Using CPU...
+Generating output dataset
+Trying to initialize DLRM
+Hello, world!
+libFlashRec opened
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+Initialized DLRM Net
+Trying to run DLRM for the first time
+Ran DLRM for the first time
+Created network
+39425
+78751
+118154
+157459
+196768
+235937
+275315
+314674
+Running networks
+All done here, cleaning up
+Cache hitrate: 30.7053710937
+Bye, world...
+Total SLS load time: *** 128048.201799  ms
+Total UNVME lib time: *** 114672.207355  ms
+Total computation time: *** 205.354213715  ms
+Total computation time: *** 0.513385534286  ms/iter
+Total execution time: *** 128253.556013  ms
+Total execution time: *** 320.633890033  ms/iter
+
+---- Test end ----
+Filtered hit rate_min: 23.2421875
+Filtered hit rate_max: 38.26171875
+---- Batch latency ----
+P99: 361.3908290863037
+P90: 346.42696380615234
+P50: 320.52087783813477
+
+Ignoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+Using CPU...
+Generating output dataset
+Trying to initialize DLRM
+Hello, world!
+libFlashRec opened
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+Initialized DLRM Net
+Trying to run DLRM for the first time
+Ran DLRM for the first time
+Created network
+74430
+148909
+223466
+298218
+372731
+447327
+521924
+596593
+Running networks
+All done here, cleaning up
+Cache hitrate: 29.1108398438
+Bye, world...
+Total SLS load time: *** 256579.229355  ms
+Total UNVME lib time: *** 232536.519766  ms
+Total computation time: *** 245.664596558  ms
+Total computation time: *** 0.614161491394  ms/iter
+Total execution time: *** 256824.893951  ms
+Total execution time: *** 642.062234879  ms/iter
+
+---- Test end ----
+Filtered hit rate_min: 24.814453125
+Filtered hit rate_max: 32.8125
+---- Batch latency ----
+P99: 696.038007736206
+P90: 673.0129718780518
+P50: 642.7888870239258
+
+Ignoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+Using CPU...
+Generating output dataset
+Trying to initialize DLRM
+Hello, world!
+libFlashRec opened
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+Initialized DLRM Net
+Trying to run DLRM for the first time
+Ran DLRM for the first time
+Created network
+143715
+287356
+431153
+574990
+718944
+862742
+1006461
+1150097
+Running networks
+All done here, cleaning up
+Cache hitrate: 28.0616699219
+Bye, world...
+Total SLS load time: *** 529266.080856  ms
+Total UNVME lib time: *** 475733.27446  ms
+Total computation time: *** 356.857061386  ms
+Total computation time: *** 0.892142653465  ms/iter
+Total execution time: *** 529622.937918  ms
+Total execution time: *** 1324.05734479  ms/iter
+
+---- Test end ----
+Filtered hit rate_min: 25.33203125
+Filtered hit rate_max: 30.556640625
+---- Batch latency ----
+P99: 1401.9088745117188
+P90: 1368.3230876922607
+P50: 1329.030990600586
+
+Ignoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+Using CPU...
+Generating output dataset
+Trying to initialize DLRM
+Hello, world!
+libFlashRec opened
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+vector_length: 32 / table_length: 1000000
+Initialized DLRM Net
+Trying to run DLRM for the first time
+Ran DLRM for the first time
+Created network
+279692
+559620
+839582
+1119473
+1399492
+1679358
+1959232
+2238997
+Running networks
+All done here, cleaning up
+Cache hitrate: 27.3157348633
+Bye, world...
+Total SLS load time: *** 1078658.71119  ms
+Total UNVME lib time: *** 962239.225388  ms
+Total computation time: *** 446.063756943  ms
+Total computation time: *** 1.11515939236  ms/iter
+Total execution time: *** 1079104.77495  ms
+Total execution time: *** 2697.76193738  ms/iter
+
+---- Test end ----
+Filtered hit rate_min: 26.37451171875
+Filtered hit rate_max: 29.721679687500004
+---- Batch latency ----
+P99: 2807.9400062561035
+P90: 2768.558979034424
+P50: 2700.608968734741
+
+--------------------Running (RM1) CPU Test with Batch Size 1--------------------
+
+python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "256-64-1" --arch_mlp_bot "128-64-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 80 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 1 --max_mini_batch_size 1 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+--------------------Running (RM1) CPU Test with Batch Size 2--------------------
+
+python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "256-64-1" --arch_mlp_bot "128-64-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 80 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 2 --max_mini_batch_size 2 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+--------------------Running (RM1) CPU Test with Batch Size 4--------------------
+
+python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "256-64-1" --arch_mlp_bot "128-64-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 80 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 4 --max_mini_batch_size 4 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+--------------------Running (RM1) CPU Test with Batch Size 8--------------------
+
+python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "256-64-1" --arch_mlp_bot "128-64-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 80 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 8 --max_mini_batch_size 8 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+--------------------Running (RM1) CPU Test with Batch Size 16--------------------
+
+python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "256-64-1" --arch_mlp_bot "128-64-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 80 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 16 --max_mini_batch_size 16 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+--------------------Running (RM1) CPU Test with Batch Size 32--------------------
+
+python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "256-64-1" --arch_mlp_bot "128-64-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 80 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 32 --max_mini_batch_size 32 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log

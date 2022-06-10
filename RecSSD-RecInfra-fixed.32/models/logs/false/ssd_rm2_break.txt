@@ -1,0 +1,160 @@
+[ 9117.601895] Hello, ebpf-prog type 1!
+[ 9117.601976] Hello, ebpf-prog type 1!
+[ 9117.602067] Hello, ebpf-prog type 1!
+[ 9117.602322] Hello, ebpf-prog type 26!
+[ 9132.630036] nvmet: creating controller 1 for subsystem nqn.2014-08.org.nvmexpress.discovery for NQN nqn.2014-08.org.nvmexpress:uuid:eccade05-bcec-412d-8ba6-4fa9a7d82941.
+[ 9132.630779] nvmet: unsupported identify cns 6
+[ 9132.635162] nvmet_tcp: failed cmd 000000007c9cf721 id 8217 opcode 6, data_len: 4096
+[ 9132.680959] nvmet: creating controller 2 for subsystem nvmetcp for NQN nqn.2014-08.org.nvmexpress:uuid:eccade05-bcec-412d-8ba6-4fa9a7d82941.
+[ 9132.682717] nvmet: unhandled cmd 6 on qid 0
+[ 9132.686915] nvmet_tcp: failed cmd 0000000059157c56 id 8212 opcode 6, data_len: 4096
+[10228.459640] nvmet: CPU 0 Usage - 0
+[10228.459643] nvmet: CPU 1 Usage - 0
+[10228.459648] nvmet: CPU 2 Usage - 0
+[10228.459651] nvmet: CPU 3 Usage - 0
+[10228.459653] nvmet: CPU 4 Usage - 0
+[10228.459656] nvmet: CPU 5 Usage - 0
+[10228.459658] nvmet: CPU 6 Usage - 0
+[10228.459660] nvmet: CPU 7 Usage - 0
+[10228.459663] nvmet: CPU 8 Usage - 0
+[10228.459665] nvmet: CPU 9 Usage - 0
+[10228.459669] nvmet: CPU 10 Usage - 0
+[10228.459671] nvmet: CPU 11 Usage - 0
+[10228.459674] nvmet: CPU 12 Usage - 0
+[10228.459676] nvmet: CPU 13 Usage - 0
+[10228.459679] nvmet: CPU 14 Usage - 0
+[10228.459681] nvmet: CPU 15 Usage - 0
+[10228.459685] NAND Flash read time: 0
+[10228.459688] eBPF Program execute time: 0
+[11594.645277] nvmet: CPU 0 Usage - 0
+[11594.645280] nvmet: CPU 1 Usage - 0
+[11594.645285] nvmet: CPU 2 Usage - 0
+[11594.645307] nvmet: CPU 3 Usage - 0
+[11594.645310] nvmet: CPU 4 Usage - 0
+[11594.645313] nvmet: CPU 5 Usage - 0
+[11594.645315] nvmet: CPU 6 Usage - 0
+[11594.645318] nvmet: CPU 7 Usage - 0
+[11594.645320] nvmet: CPU 8 Usage - 0
+[11594.645322] nvmet: CPU 9 Usage - 0
+[11594.645326] nvmet: CPU 10 Usage - 0
+[11594.645328] nvmet: CPU 11 Usage - 0
+[11594.645332] nvmet: CPU 12 Usage - 0
+[11594.645334] nvmet: CPU 13 Usage - 0
+[11594.645337] nvmet: CPU 14 Usage - 0
+[11594.645339] nvmet: CPU 15 Usage - 0
+[11594.645342] NAND Flash read time: 0
+[11594.645345] eBPF Program execute time: 0
+[13644.540835] nvmet: CPU 0 Usage - 0
+[13644.540838] nvmet: CPU 1 Usage - 0
+[13644.540843] nvmet: CPU 2 Usage - 0
+[13644.540846] nvmet: CPU 3 Usage - 0
+[13644.540849] nvmet: CPU 4 Usage - 0
+[13644.540851] nvmet: CPU 5 Usage - 0
+[13644.540854] nvmet: CPU 6 Usage - 0
+[13644.540856] nvmet: CPU 7 Usage - 0
+[13644.540859] nvmet: CPU 8 Usage - 0
+[13644.540861] nvmet: CPU 9 Usage - 0
+[13644.540865] nvmet: CPU 10 Usage - 0
+[13644.540867] nvmet: CPU 11 Usage - 0
+[13644.540870] nvmet: CPU 12 Usage - 0
+[13644.540873] nvmet: CPU 13 Usage - 0
+[13644.540875] nvmet: CPU 14 Usage - 0
+[13644.540877] nvmet: CPU 15 Usage - 0
+[13644.540881] NAND Flash read time: 0
+[13644.540884] eBPF Program execute time: 0
+[17014.053225] nvmet: CPU 0 Usage - 0
+[17014.053227] nvmet: CPU 1 Usage - 0
+[17014.053233] nvmet: CPU 2 Usage - 0
+[17014.053236] nvmet: CPU 3 Usage - 0
+[17014.053238] nvmet: CPU 4 Usage - 0
+[17014.053241] nvmet: CPU 5 Usage - 0
+[17014.053243] nvmet: CPU 6 Usage - 0
+[17014.053246] nvmet: CPU 7 Usage - 0
+[17014.053248] nvmet: CPU 8 Usage - 0
+[17014.053251] nvmet: CPU 9 Usage - 0
+[17014.053254] nvmet: CPU 10 Usage - 0
+[17014.053256] nvmet: CPU 11 Usage - 0
+[17014.053259] nvmet: CPU 12 Usage - 0
+[17014.053262] nvmet: CPU 13 Usage - 0
+[17014.053264] nvmet: CPU 14 Usage - 0
+[17014.053267] nvmet: CPU 15 Usage - 0
+[17014.053270] NAND Flash read time: 0
+[17014.053273] eBPF Program execute time: 0
+[17883.491126] nvmet: CPU 0 Usage - 151347
+[17883.491129] nvmet: CPU 1 Usage - 144564
+[17883.491134] nvmet: CPU 2 Usage - 142593
+[17883.491137] nvmet: CPU 3 Usage - 150090
+[17883.491140] nvmet: CPU 4 Usage - 0
+[17883.491142] nvmet: CPU 5 Usage - 0
+[17883.491145] nvmet: CPU 6 Usage - 0
+[17883.491147] nvmet: CPU 7 Usage - 0
+[17883.491150] nvmet: CPU 8 Usage - 0
+[17883.491152] nvmet: CPU 9 Usage - 0
+[17883.491155] nvmet: CPU 10 Usage - 0
+[17883.491157] nvmet: CPU 11 Usage - 0
+[17883.491160] nvmet: CPU 12 Usage - 124045
+[17883.491164] nvmet: CPU 13 Usage - 130497
+[17883.491166] nvmet: CPU 14 Usage - 146578
+[17883.491169] nvmet: CPU 15 Usage - 146140
+[17883.491172] NAND Flash read time: 94507918591
+[17883.491175] eBPF Program execute time: 904491058
+[18984.357186] nvmet: CPU 0 Usage - 316171
+[18984.357188] nvmet: CPU 1 Usage - 269539
+[18984.357191] nvmet: CPU 2 Usage - 287646
+[18984.357192] nvmet: CPU 3 Usage - 298776
+[18984.357194] nvmet: CPU 4 Usage - 0
+[18984.357195] nvmet: CPU 5 Usage - 0
+[18984.357196] nvmet: CPU 6 Usage - 0
+[18984.357197] nvmet: CPU 7 Usage - 0
+[18984.357199] nvmet: CPU 8 Usage - 0
+[18984.357200] nvmet: CPU 9 Usage - 0
+[18984.357201] nvmet: CPU 10 Usage - 0
+[18984.357202] nvmet: CPU 11 Usage - 0
+[18984.357204] nvmet: CPU 12 Usage - 213868
+[18984.357205] nvmet: CPU 13 Usage - 270882
+[18984.357206] nvmet: CPU 14 Usage - 348432
+[18984.357208] nvmet: CPU 15 Usage - 272932
+[18984.357210] NAND Flash read time: 189435739213
+[18984.357211] eBPF Program execute time: 1790980045
+[20533.381971] nvmet: CPU 0 Usage - 606518
+[20533.381973] nvmet: CPU 1 Usage - 586502
+[20533.381976] nvmet: CPU 2 Usage - 579430
+[20533.381978] nvmet: CPU 3 Usage - 556975
+[20533.381979] nvmet: CPU 4 Usage - 0
+[20533.381980] nvmet: CPU 5 Usage - 0
+[20533.381982] nvmet: CPU 6 Usage - 0
+[20533.381983] nvmet: CPU 7 Usage - 0
+[20533.381984] nvmet: CPU 8 Usage - 0
+[20533.381986] nvmet: CPU 9 Usage - 0
+[20533.381987] nvmet: CPU 10 Usage - 0
+[20533.381988] nvmet: CPU 11 Usage - 0
+[20533.381990] nvmet: CPU 12 Usage - 487226
+[20533.381991] nvmet: CPU 13 Usage - 578882
+[20533.381993] nvmet: CPU 14 Usage - 607076
+[20533.381994] nvmet: CPU 15 Usage - 557876
+[20533.381996] NAND Flash read time: 378802071459
+[20533.381998] eBPF Program execute time: 3593071614
+[23044.909423] nvmet: CPU 0 Usage - 1320808
+[23044.909427] nvmet: CPU 1 Usage - 1279865
+[23044.909432] nvmet: CPU 2 Usage - 1378164
+[23044.909435] nvmet: CPU 3 Usage - 1213622
+[23044.909438] nvmet: CPU 4 Usage - 0
+[23044.909441] nvmet: CPU 5 Usage - 0
+[23044.909444] nvmet: CPU 6 Usage - 0
+[23044.909447] nvmet: CPU 7 Usage - 0
+[23044.909450] nvmet: CPU 8 Usage - 0
+[23044.909453] nvmet: CPU 9 Usage - 0
+[23044.909456] nvmet: CPU 10 Usage - 0
+[23044.909458] nvmet: CPU 11 Usage - 0
+[23044.909462] nvmet: CPU 12 Usage - 861667
+[23044.909465] nvmet: CPU 13 Usage - 993571
+[23044.909467] nvmet: CPU 14 Usage - 1452393
+[23044.909470] nvmet: CPU 15 Usage - 628865
+[23044.909474] NAND Flash read time: 760645794986
+[23044.909478] eBPF Program execute time: 7412442421
+[23109.567945] fsl_dpaa2_eth dpni.1 eth1: Link Event: state down
+[23118.355792] nvmet: ctrl 2 keep-alive timer (5 seconds) expired!
+[23118.361731] nvmet: ctrl 2 fatal error occurred!
+[55202.245814] fsl_dpaa2_eth dpni.1 eth1: Link Event: state up
+[55249.238243] fsl_dpaa2_eth dpni.1 eth1: Link Event: state down
+[55250.246865] fsl_dpaa2_eth dpni.1 eth1: Link Event: state up

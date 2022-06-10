@@ -1,0 +1,228 @@
+23c23
+< Cache hitrate: 92.78125%
+---
+> Cache hitrate: 37.06375%
+25,38c25,38
+< Total SLS load time: *** 3696.80905342  ms
+< Total UNVME lib time: *** 1440.22941589  ms
+< Total computation time: *** 626.06883049  ms
+< Total computation time: *** 1.56517207623  ms/iter
+< Total execution time: *** 4322.87788391  ms
+< Total execution time: *** 10.8071947098  ms/iter
+< 
+< ---- Test end ----
+< Filtered hit rate_min: 67.5
+< Filtered hit rate_max: 95.75
+< ---- Batch latency ----
+< P99: 20.22695541381836
+< P90: 12.005090713500977
+< P50: 10.514974594116211
+---
+> Total SLS load time: *** 10686.6950989  ms
+> Total UNVME lib time: *** 9122.26343155  ms
+> Total computation time: *** 587.328910828  ms
+> Total computation time: *** 1.46832227707  ms/iter
+> Total execution time: *** 11274.0240097  ms
+> Total execution time: *** 28.1850600243  ms/iter
+> 
+> ---- Test end ----
+> Filtered hit rate_min: 14.499999999999998
+> Filtered hit rate_max: 46.0
+> ---- Batch latency ----
+> P99: 33.45012664794922
+> P90: 31.350135803222656
+> P50: 28.2590389251709
+62c62
+< Cache hitrate: 92.879375%
+---
+> Cache hitrate: 33.1525%
+64,77c64,77
+< Total SLS load time: *** 7153.80692482  ms
+< Total UNVME lib time: *** 2757.63440132  ms
+< Total computation time: *** 710.272073746  ms
+< Total computation time: *** 1.77568018436  ms/iter
+< Total execution time: *** 7864.07899857  ms
+< Total execution time: *** 19.6601974964  ms/iter
+< 
+< ---- Test end ----
+< Filtered hit rate_min: 77.0
+< Filtered hit rate_max: 95.25
+< ---- Batch latency ----
+< P99: 26.98802947998047
+< P90: 21.6519832611084
+< P50: 19.389867782592773
+---
+> Total SLS load time: *** 21195.4705715  ms
+> Total UNVME lib time: *** 18543.3945656  ms
+> Total computation time: *** 688.946485519  ms
+> Total computation time: *** 1.7223662138  ms/iter
+> Total execution time: *** 21884.417057  ms
+> Total execution time: *** 54.7110426426  ms/iter
+> 
+> ---- Test end ----
+> Filtered hit rate_min: 4.75
+> Filtered hit rate_max: 57.583333333333336
+> ---- Batch latency ----
+> P99: 72.53098487854004
+> P90: 68.30215454101562
+> P50: 50.84085464477539
+101c101
+< Cache hitrate: 92.77375%
+---
+> Cache hitrate: 27.3821875%
+103,116c103,116
+< Total SLS load time: *** 14856.5633297  ms
+< Total UNVME lib time: *** 5608.27827454  ms
+< Total computation time: *** 1142.58670807  ms
+< Total computation time: *** 2.85646677017  ms/iter
+< Total execution time: *** 15999.1500378  ms
+< Total execution time: *** 39.9978750944  ms/iter
+< 
+< ---- Test end ----
+< Filtered hit rate_min: 79.0
+< Filtered hit rate_max: 94.25
+< ---- Batch latency ----
+< P99: 50.57692527770996
+< P90: 43.2429313659668
+< P50: 39.68000411987305
+---
+> Total SLS load time: *** 43754.5289993  ms
+> Total UNVME lib time: *** 39607.9037189  ms
+> Total computation time: *** 1108.5870266  ms
+> Total computation time: *** 2.77146756649  ms/iter
+> Total execution time: *** 44863.1160259  ms
+> Total execution time: *** 112.157790065  ms/iter
+> 
+> ---- Test end ----
+> Filtered hit rate_min: 9.875
+> Filtered hit rate_max: 36.625
+> ---- Batch latency ----
+> P99: 134.69696044921875
+> P90: 124.70102310180664
+> P50: 110.7940673828125
+140c140
+< Cache hitrate: 92.04578125%
+---
+> Cache hitrate: 26.8990625%
+142,155c142,155
+< Total SLS load time: *** 30649.0929127  ms
+< Total UNVME lib time: *** 12371.9859123  ms
+< Total computation time: *** 1728.32512856  ms
+< Total computation time: *** 4.32081282139  ms/iter
+< Total execution time: *** 32377.4180412  ms
+< Total execution time: *** 80.9435451031  ms/iter
+< 
+< ---- Test end ----
+< Filtered hit rate_min: 85.8125
+< Filtered hit rate_max: 93.203125
+< ---- Batch latency ----
+< P99: 95.68500518798828
+< P90: 87.51797676086426
+< P50: 80.53207397460938
+---
+> Total SLS load time: *** 84718.6334133  ms
+> Total UNVME lib time: *** 76836.0114098  ms
+> Total computation time: *** 1668.27464104  ms
+> Total computation time: *** 4.17068660259  ms/iter
+> Total execution time: *** 86386.9080544  ms
+> Total execution time: *** 215.967270136  ms/iter
+> 
+> ---- Test end ----
+> Filtered hit rate_min: 11.25
+> Filtered hit rate_max: 34.4375
+> ---- Batch latency ----
+> P99: 260.58316230773926
+> P90: 242.70892143249512
+> P50: 212.8758430480957
+179c179
+< Cache hitrate: 85.046875%
+---
+> Cache hitrate: 26.3903125%
+181,194c181,194
+< Total SLS load time: *** 86838.5756016  ms
+< Total UNVME lib time: *** 46157.3038101  ms
+< Total computation time: *** 2113.89136314  ms
+< Total computation time: *** 5.28472840786  ms/iter
+< Total execution time: *** 88952.4669647  ms
+< Total execution time: *** 222.381167412  ms/iter
+< 
+< ---- Test end ----
+< Filtered hit rate_min: 78.46875
+< Filtered hit rate_max: 91.65625
+< ---- Batch latency ----
+< P99: 287.92405128479004
+< P90: 273.67711067199707
+< P50: 220.00908851623535
+---
+> Total SLS load time: *** 168193.454266  ms
+> Total UNVME lib time: *** 152593.290329  ms
+> Total computation time: *** 2081.80975914  ms
+> Total computation time: *** 5.20452439785  ms/iter
+> Total execution time: *** 170275.264025  ms
+> Total execution time: *** 425.688160062  ms/iter
+> 
+> ---- Test end ----
+> Filtered hit rate_min: 18.96875
+> Filtered hit rate_max: 35.5625
+> ---- Batch latency ----
+> P99: 480.942964553833
+> P90: 462.7947807312012
+> P50: 427.51097679138184
+218c218
+< Cache hitrate: 70.278203125%
+---
+> Cache hitrate: 25.998359375%
+220,233c220,233
+< Total SLS load time: *** 280124.983788  ms
+< Total UNVME lib time: *** 178670.205116  ms
+< Total computation time: *** 3081.91919327  ms
+< Total computation time: *** 7.70479798317  ms/iter
+< Total execution time: *** 283206.902981  ms
+< Total execution time: *** 708.017257452  ms/iter
+< 
+< ---- Test end ----
+< Filtered hit rate_min: 62.40625
+< Filtered hit rate_max: 79.671875
+< ---- Batch latency ----
+< P99: 861.1249923706055
+< P90: 821.5138912200928
+< P50: 717.0181274414062
+---
+> Total SLS load time: *** 335604.77376  ms
+> Total UNVME lib time: *** 305168.559074  ms
+> Total computation time: *** 3356.33707047  ms
+> Total computation time: *** 8.39084267616  ms/iter
+> Total execution time: *** 338961.11083  ms
+> Total execution time: *** 847.402777076  ms/iter
+> 
+> ---- Test end ----
+> Filtered hit rate_min: 21.546875
+> Filtered hit rate_max: 29.7421875
+> ---- Batch latency ----
+> P99: 923.6319065093994
+> P90: 893.1589126586914
+> P50: 846.513032913208
+237c237
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 1 --max_mini_batch_size 1 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 1 --max_mini_batch_size 1 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+240c240
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 2 --max_mini_batch_size 2 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 2 --max_mini_batch_size 2 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+243c243
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 4 --max_mini_batch_size 4 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 4 --max_mini_batch_size 4 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+246c246
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 8 --max_mini_batch_size 8 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 8 --max_mini_batch_size 8 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+249c249
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 16 --max_mini_batch_size 16 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 16 --max_mini_batch_size 16 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+252c252
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 32 --max_mini_batch_size 32 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type async_dag --model_type dlrm --arch_mlp_top "512-256-1" --arch_mlp_bot "2560-1024-256-32" --arch_sparse_feature_size 32 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 20 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 32 --max_mini_batch_size 32 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
