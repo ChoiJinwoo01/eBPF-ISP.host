@@ -15,7 +15,7 @@ sls_type = "ndp"
 for x in range(1):
 	n = 2**x
         #n = 32
-	data_config = "--nepochs " + str(num_epochs) + " --num_batches " + str(num_batches) + " --mini_batch_size " + str(n) + " --max_mini_batch_size " + str(n) + " --sls_type " + str(sls_type) + " --data_generation synthetic" + " --data_trace_file input/dist_emb_j.log"
+	data_config = "--nepochs " + str(num_epochs) + " --num_batches " + str(num_batches) + " --mini_batch_size " + str(n) + " --max_mini_batch_size " + str(n) + " --sls_type " + str(sls_type) + " --data_generation synthetic" + " --data_trace_file input_k0/dist_emb_j.log"
 
 	cpu_command = "python dlrm_s_caffe2.py " + rt_config_cpu + model_config + data_config
 	gpu_command = "python dlrm_s_caffe2.py " + rt_config_gpu + model_config + data_config

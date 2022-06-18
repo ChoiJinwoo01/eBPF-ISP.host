@@ -300,7 +300,7 @@ class DLRMDataGenerator(DataGenerator):
       for _ in range(out_trace_len):
           sd = self.generate_stack_distance(list_sd, cumm_sd, max_sd, i, enable_padding)
           sd *= self.args.num_indices_per_lookup
-          mem_ref_within_line = 0 #math.floor(ra.rand(1)*self.cache_line_size)
+          mem_ref_within_line = 0 #math.floor(ra.rand(1)*self.cache_line_size) #0
           # generate memory reference
           if sd == 0:  # new reference #
               line_ref = line_accesses.pop(0)

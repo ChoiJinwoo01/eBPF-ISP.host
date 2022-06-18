@@ -1,0 +1,184 @@
+45c45
+< Cache hitrate: 26.9255859375
+---
+> Cache hitrate: 33.8600911458
+47,52c47,52
+< Total SLS load time: *** 343751.565218  ms
+< Total UNVME lib time: *** 263168.302298  ms
+< Total computation time: *** 601.108789444  ms
+< Total computation time: *** 1.50277197361  ms/iter
+< Total execution time: *** 344352.674007  ms
+< Total execution time: *** 860.881685019  ms/iter
+---
+> Total SLS load time: *** 189227.996349  ms
+> Total UNVME lib time: *** 166614.998102  ms
+> Total computation time: *** 537.552595139  ms
+> Total computation time: *** 1.34388148785  ms/iter
+> Total execution time: *** 189765.548944  ms
+> Total execution time: *** 474.413872361  ms/iter
+55,56c55,56
+< Filtered hit rate_min: 25.642361111111114
+< Filtered hit rate_max: 42.604166666666664
+---
+> Filtered hit rate_min: 23.59375
+> Filtered hit rate_max: 46.640625
+58,60c58,60
+< P99: 919.6698665618896
+< P90: 902.5580883026123
+< P50: 868.1550025939941
+---
+> P99: 543.7541007995605
+> P90: 521.0740566253662
+> P50: 482.3629856109619
+106c106
+< Cache hitrate: 26.5200520833
+---
+> Cache hitrate: 31.3833333333
+108,113c108,113
+< Total SLS load time: *** 692647.684097  ms
+< Total UNVME lib time: *** 530557.236671  ms
+< Total computation time: *** 643.184900284  ms
+< Total computation time: *** 1.60796225071  ms/iter
+< Total execution time: *** 693290.868998  ms
+< Total execution time: *** 1733.22717249  ms/iter
+---
+> Total SLS load time: *** 384627.088785  ms
+> Total UNVME lib time: *** 341887.282133  ms
+> Total computation time: *** 602.97203064  ms
+> Total computation time: *** 1.5074300766  ms/iter
+> Total execution time: *** 385230.060816  ms
+> Total execution time: *** 963.07515204  ms/iter
+116,117c116,117
+< Filtered hit rate_min: 25.651041666666668
+< Filtered hit rate_max: 34.518229166666664
+---
+> Filtered hit rate_min: 21.731770833333332
+> Filtered hit rate_max: 38.27690972222222
+119,121c119,121
+< P99: 1816.133975982666
+< P90: 1789.309024810791
+< P50: 1737.861156463623
+---
+> P99: 1080.815076828003
+> P90: 1042.8740978240967
+> P50: 955.1830291748047
+167c167
+< Cache hitrate: 26.4688313802
+---
+> Cache hitrate: 29.5136067708
+169,174c169,174
+< Total SLS load time: *** 1383262.71343  ms
+< Total UNVME lib time: *** 1059601.8858  ms
+< Total computation time: *** 584.410667419  ms
+< Total computation time: *** 1.46102666855  ms/iter
+< Total execution time: *** 1383847.1241  ms
+< Total execution time: *** 3459.61781025  ms/iter
+---
+> Total SLS load time: *** 781763.727665  ms
+> Total UNVME lib time: *** 702527.929306  ms
+> Total computation time: *** 609.507322311  ms
+> Total computation time: *** 1.52376830578  ms/iter
+> Total execution time: *** 782373.234987  ms
+> Total execution time: *** 1955.93308747  ms/iter
+177,178c177,178
+< Filtered hit rate_min: 26.022135416666664
+< Filtered hit rate_max: 34.283854166666664
+---
+> Filtered hit rate_min: 23.873697916666668
+> Filtered hit rate_max: 34.251302083333336
+180,182c180,182
+< P99: 3589.4880294799805
+< P90: 3546.6878414154053
+< P50: 3473.0169773101807
+---
+> P99: 2107.1670055389404
+> P90: 2033.661127090454
+> P50: 1955.79195022583
+228c228
+< Cache hitrate: 26.4221516927
+---
+> Cache hitrate: 28.3248860677
+230,235c230,235
+< Total SLS load time: *** 2795714.67996  ms
+< Total UNVME lib time: *** 2141366.44721  ms
+< Total computation time: *** 642.051935196  ms
+< Total computation time: *** 1.60512983799  ms/iter
+< Total execution time: *** 2796356.73189  ms
+< Total execution time: *** 6990.89182973  ms/iter
+---
+> Total SLS load time: *** 1589135.08201  ms
+> Total UNVME lib time: *** 1430781.58069  ms
+> Total computation time: *** 812.339782715  ms
+> Total computation time: *** 2.03084945679  ms/iter
+> Total execution time: *** 1589947.42179  ms
+> Total execution time: *** 3974.86855447  ms/iter
+238,239c238,239
+< Filtered hit rate_min: 25.99609375
+< Filtered hit rate_max: 31.888020833333336
+---
+> Filtered hit rate_min: 25.01953125
+> Filtered hit rate_max: 31.0888671875
+241,243c241,243
+< P99: 7236.505031585693
+< P90: 7140.7129764556885
+< P50: 7003.959178924561
+---
+> P99: 4182.070016860962
+> P90: 4089.985132217407
+> P50: 3976.9980907440186
+247c247
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 1 --max_mini_batch_size 1 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 1 --max_mini_batch_size 1 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+250c250
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 2 --max_mini_batch_size 2 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 2 --max_mini_batch_size 2 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+253c253
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 4 --max_mini_batch_size 4 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 4 --max_mini_batch_size 4 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+256c256
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 8 --max_mini_batch_size 8 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 8 --max_mini_batch_size 8 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.log
+259c259
+< python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 16 --max_mini_batch_size 16 --sls_type base --data_generation synthetic --data_trace_file input_k2/dist_embIgnoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+---
+> python dlrm_s_caffe2.py --inference_only --inter_op_workers 4 --caffe2_net_type simple --enable_profiling --model_type dlrm --arch_mlp_top "128-64-1" --arch_mlp_bot "128-64-64" --arch_sparse_feature_size 64 --arch_embedding_size "1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000-1000000" --num_indices_per_lookup 120 --num_indices_per_lookup_fixed True --arch_interaction_op cat --nepochs 1 --num_batches 400 --mini_batch_size 16 --max_mini_batch_size 16 --sls_type ndp --data_generation synthetic --data_trace_file input_k2/dist_emb_j.loIgnoring //caffe2/caffe2/fb/operators/intra_op_parallel:intra_op_parallel_ops as it is not a valid file.
+303c303
+< Cache hitrate: 26.3915486654
+---
+> Cache hitrate: 27.4934488932
+305,310c305,310
+< Total SLS load time: *** 5551035.63905  ms
+< Total UNVME lib time: *** 4250542.42754  ms
+< Total computation time: *** 715.312957764  ms
+< Total computation time: *** 1.78828239441  ms/iter
+< Total execution time: *** 5551750.95201  ms
+< Total execution time: *** 13879.37738  ms/iter
+---
+> Total SLS load time: *** 3230559.62825  ms
+> Total UNVME lib time: *** 2889978.01352  ms
+> Total computation time: *** 990.295886993  ms
+> Total computation time: *** 2.47573971748  ms/iter
+> Total execution time: *** 3231549.92414  ms
+> Total execution time: *** 8078.87481034  ms/iter
+313,314c313,314
+< Filtered hit rate_min: 26.0009765625
+< Filtered hit rate_max: 31.333007812500004
+---
+> Filtered hit rate_min: 25.584309895833336
+> Filtered hit rate_max: 29.230143229166668
+316,318c316,318
+< P99: 14243.340015411377
+< P90: 14103.58214378357
+< P50: 13896.449089050293
+---
+> P99: 8369.518041610718
+> P90: 8220.930099487305
+> P50: 8077.507972717285
+320c320
+< _j.log
+---
+> g

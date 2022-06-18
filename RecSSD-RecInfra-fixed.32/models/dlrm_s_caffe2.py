@@ -653,15 +653,13 @@ def slsload(sls_type, lru, libFlashRec, m_spa, X, S_lengths, S_indices, qid, ln_
                             c_int(embedidx), c_int(m_spa), c_int(i), c_int(qid))
 
                         unvme_exit = time.time()
+                        unvmelibtime[qid] += (unvme_exit - unvme_enter)
 
                         list_embedding = []
                         for h in xrange(m_spa+1):
                             list_embedding.append(read_embedding[h])
                         read_embedding = np.array(list_embedding).astype(np.int32)
                         lru[i][embedidx] = read_embedding[:m_spa]
-                        if (read_embedding[m_spa] > 0):
-                            unvmelibtime[qid] += (unvme_exit - unvme_enter)
-                            #unvmetranslatetime[qid] += (read_embedding[m_spa])
 
                     embedding = np.add(embedding, (read_embedding[:m_spa]).astype(np.float32) / 1000000.0)
                 listResult.append(embedding)
@@ -697,6 +695,13 @@ def slsload(sls_type, lru, libFlashRec, m_spa, X, S_lengths, S_indices, qid, ln_
                     # static partitioning
                     numInputEmbeddings = len(filteredPairInd)
                     flatInd = np.array(sorted(filteredPairInd, key=(lambda x: x[1]))).flatten()
+                    #import pdb; pdb.set_trace()
+                    #cnt = 0
+                    #for idx in range (int(len(flatInd) / 2) -1):
+                    #    if flatInd[idx*2+1] / 128 == flatInd[idx*2+1+2]:
+                    #        cnt+=1
+                    #print(cnt)
+                   
                     IndexType = c_int * len(flatInd)
                     libFlashRec.unvme_sparse_length_sum.restype = POINTER(c_int)
                     unvme_enter = time.time()
@@ -784,6 +789,7 @@ if __name__ == "__main__":
         (nbatches, lT) = dc.generate_output_data()
 
     num_lookups_per_batch = args.mini_batch_size*args.num_indices_per_lookup
+    #import pdb; pdb.set_trace()
     for j in xrange(nbatches):
         lX[j] = lX[j][:args.mini_batch_size]
         for k in xrange(len(ln_emb)):
@@ -814,14 +820,16 @@ if __name__ == "__main__":
     global slsloadtime
     global unvmelibtime
     global unvmetranslatetime
+    global calctime
     slsloadtime = []
     unvmelibtime = []
     unvmetranslatetime = []
+    calctime = []
     for i in xrange(load_instances):
         slsloadtime.append(0)
         unvmelibtime.append(0)
         unvmetranslatetime.append(0)
-
+        calctime.append(0)
     lru = []
     global hits
     global misses
@@ -843,6 +851,10 @@ if __name__ == "__main__":
                         else:
                             profile[index] = 1
                 sortedprofile = sorted(profile.items(), key = lambda x: x[1], reverse=True)
+                unique = 0
+                for idx in range(len(sortedprofile)):
+                    if sortedprofile[idx][1] == 1:
+                        unique += 1
                 for (k, (key, value)) in enumerate(sorted(profile.items(),
                                                           key=lambda x: x[1],
                                                           reverse=True)):
@@ -850,7 +862,6 @@ if __name__ == "__main__":
                     expected_hits += sortedprofile[k][1]
                     if k == 2000:
                         break
-                print(expected_hits)
 
     #import pdb; pdb.set_trace()
     total_time = 0
@@ -933,9 +944,11 @@ if __name__ == "__main__":
     slsloadtime = sum(slsloadtime) * 1000.
     unvmelibtime = sum(unvmelibtime) * 1000.
     unvmetranslatetime = sum(unvmetranslatetime) * 1000.
+    calctime = sum(calctime) * 1000.
     dload_time = slsloadtime
     print("Total SLS load time: ***", slsloadtime, " ms")
     print("Total UNVME lib time: ***", unvmelibtime, " ms")
+    print("Total calc lib time: ***", calctime, " ms")
     #print("Total UNVME translation time: ***", unvmetranslatetime, " ms")
 
     #print("Total data loading time: ***", dload_time, " ms")
